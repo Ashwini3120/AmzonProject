@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T16:08:17 IST" name="Suite" finished-at="2024-06-14T16:08:31 IST" duration-ms="13855">
+    <groups>
+    </groups>
+    <test started-at="2024-06-14T16:08:17 IST" name="Test1" finished-at="2024-06-14T16:08:24 IST" duration-ms="7424">
+      <class name="test.TestClass">
+        <test-method signature="getDriver(java.lang.String)[pri:0, instance:test.TestClass@73a1e9a9]" started-at="2024-06-14T16:08:17 IST" name="getDriver" finished-at="2024-06-14T16:08:24 IST" duration-ms="7367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+      </class> <!-- test.TestClass -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-06-14T16:08:17 IST" name="Test2" finished-at="2024-06-14T16:08:29 IST" duration-ms="12576">
+      <class name="test.TestClass">
+        <test-method signature="getDriver(java.lang.String)[pri:0, instance:test.TestClass@79079097]" started-at="2024-06-14T16:08:17 IST" name="getDriver" finished-at="2024-06-14T16:08:29 IST" duration-ms="12531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+      </class> <!-- test.TestClass -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-06-14T16:08:17 IST" name="Test3" finished-at="2024-06-14T16:08:31 IST" duration-ms="13853">
+      <class name="test.TestClass">
+        <test-method signature="getDriver(java.lang.String)[pri:0, instance:test.TestClass@4b2bac3f]" started-at="2024-06-14T16:08:17 IST" name="getDriver" finished-at="2024-06-14T16:08:31 IST" duration-ms="13809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+      </class> <!-- test.TestClass -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
